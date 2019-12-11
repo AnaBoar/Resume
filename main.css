@@ -91,6 +91,26 @@ margin: 0;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: #333;
+}
+.inner{padding-top: 20px;
+}
+.header{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+.header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+}
 
 /*-------------Resume----------------*/
 .resume{
